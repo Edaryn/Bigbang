@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script
+        src="https://kit.fontawesome.com/a8d2f98056.js"
+        crossorigin="anonymous"
+    ></script>
+</head>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="#"
+                    ><img
+                        src="images/logo.png"
+                        alt="logo image"
+                        width="979px"
+                        height="80px"
+                    />
+                </a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="character.html">Character</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#">Location</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           
+       
+            <h1>Location</h1>
+        </section>
+        <content>
+            <section class="location">
+                <div class="row">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A20c51fe371cdb62a9047720c9aeadf45702be981cc0d807634ca7e28ff5f17d1&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                   
+                       
+                   
+         
+            </section>
+            <section class="contact-us">
+<div class="row">
+<div class="contact-col">
+    <i class="fa fa-home"></i>
+    <span>
+        <h5>XYZ consol apartament</h5>
+        <p>San Francisko ,USA </p>
+    </span>
+    <i class="fa fa-phone"></i>
+    <span>
+        <h5>+8242432523</h5>
+        <p>At 8:00 to 22:00 </p>
+    </span>
+    <i class="fa fa-envelope-o"></i>
+    <span>
+        <h5>>XYZ consol apartament</h5>
+        <p>24/7</p>
+    </span>
+</div>
+<div class="contact-col">
+    <h3>Lorem ipsum dolor sit.</h3>
+    <form class="comment-box">
+        <input type="text" placeholder="Enter name">
+        <input type="text" placeholder="Enter email">
+        <textarea  rows="5" placeholder="Your comment"></textarea>
+        <button type="submit" class="btn red-btn">Post coment</button>
+    </form>
+</div>
+
+</div>
+
+</div>
+</section>
+           
+        </content>
+        <!--footer-->
+        <footer>
+            <h4>About us</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi perspiciatis voluptatibus odio maxime iusto laudantium
+                veritatis error corrupti incidunt. Et, exercitationem distinctio
+                incidunt libero temporibus omnis magnam dolores modi voluptatum
+                nulla, neque alias sequi qui facere molestias soluta optio
+                ratione vitae similique debitis, dolore animi! Explicabo ab
+                dolore illo error!
+            </p>
+            <div class="icons">
+                <a class="fa fa-facebook"></a>
+                <a class="fa fa-twitter"></a>
+                <a class="fa fa-instagram"></a>
+                <a class="fa fa-linkedin"></a>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i></p>
+        </footer>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
